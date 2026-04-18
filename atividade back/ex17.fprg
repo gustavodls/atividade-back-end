@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex17"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 08:24:33 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNjsiMDg6MTQ6MDEgIjsyMzM1"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNjsiMDg6MjQ6MzMgIjsxOzI0NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="km" type="Integer" array="False" size=""/>
+            <output expression="&quot;quantos km vc percorreu?&quot;" newline="True"/>
+            <input variable="km"/>
+            <declare name="caro" type="Real" array="False" size=""/>
+            <declare name="barato" type="Real" array="False" size=""/>
+            <if expression="km &gt; 200">
+                <then>
+                    <assign variable="barato" expression="0.45 * km"/>
+                    <output expression="&quot;sua conta deu:&quot;&amp;barato" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="caro" expression="0.50 * km"/>
+                    <output expression="&quot;sua conta deu:&quot;&amp;caro" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

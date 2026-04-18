@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex24"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-17 09:29:02 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNzsiMDk6MjE6MTYgIjsyMzQx"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNzsiMDk6Mjk6MDIgIjsxOzI0NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <output expression="&quot;escolha um numero&quot;" newline="True"/>
+            <input variable="num"/>
+            <assign variable="count" expression="1"/>
+            <while expression="count &lt;=6">
+                <output expression="num" newline="True"/>
+                <assign variable="num" expression="num + 1"/>
+                <assign variable="count" expression="count +1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

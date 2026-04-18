@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex7"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:01:39 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNDsiMDc6NDQ6MDcgIjsyMzQx"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNDsiMDg6MDE6MzkgIjsxOzI0NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numreal" type="Real" array="False" size=""/>
+            <declare name="dobro" type="Real" array="False" size=""/>
+            <declare name="tercaparte" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero para que eu apresente o dobro e ater&#231;a parte&quot;" newline="True"/>
+            <input variable="numreal"/>
+            <assign variable="dobro" expression="numreal &#215;2"/>
+            <assign variable="tercaparte" expression="numreal /3"/>
+            <output expression="&quot;Seu dobro &#233;: &quot;&amp;dobro" newline="True"/>
+            <output expression="&quot;sua ter&#231;a parte &#233;: &quot;&amp;tercaparte" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex15"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-15 08:50:56 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNTsiMDg6MTQ6MzYgIjsyMzQy"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNTsiMDg6NTA6NTYgIjsxOzI0NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;digite um numero que eu vou descobrir e responder se ele &#233; par ou impar&quot;" newline="True"/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <if expression="num == 0">
+                <then>
+                    <output expression="&quot;esse numero nao &#233; par nem impar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="(num % 2) == 0">
+                        <then>
+                            <output expression="&quot;esse numero &#233; par&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;esse numero &#233; impar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

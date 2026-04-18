@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex11"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 07:26:00 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNjsiMDc6MTU6NTEgIjsyMzQw"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNjsiMDc6MjY6MDAgIjsxOzI0NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Quantos cigarros vc fuma por dia?&quot;" newline="True"/>
+            <declare name="cigarrodia" type="Integer" array="False" size=""/>
+            <input variable="cigarrodia"/>
+            <output expression="&quot;Quantos anos vc fumou?&quot;" newline="True"/>
+            <declare name="anos" type="Integer" array="False" size=""/>
+            <input variable="anos"/>
+            <declare name="result" type="Real" array="False" size=""/>
+            <assign variable="result" expression="(anos * 365 * cigarrodia * 10) / 1440"/>
+            <output expression="&quot;vc perdeu &quot;&amp;result&amp;&quot; dias de vida&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

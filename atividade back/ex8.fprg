@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex8"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 09:23:25 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNDsiMDk6MTI6NDggIjsyMzQz"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNDsiMDk6MjM6MjUgIjsxOzI0NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="carteira" type="Real" array="False" size=""/>
+            <declare name="dolar" type="Real" array="False" size=""/>
+            <declare name="conversao" type="Real" array="False" size=""/>
+            <output expression="&quot;Quantos reais vc tem na carteira&quot;" newline="True"/>
+            <input variable="carteira"/>
+            <output expression="&quot;Quantos esta o dolar?&quot;" newline="True"/>
+            <input variable="dolar"/>
+            <assign variable="conversao" expression="carteira / dolar"/>
+            <output expression="&quot;vc pode comprar&quot;&amp;conversao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

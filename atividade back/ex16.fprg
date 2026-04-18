@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex16"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 08:13:57 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNjsiMDg6MDY6MzggIjsyMzQ2"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNjsiMDg6MTM6NTcgIjsxOzI0NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Em que ano vc nasceu?&quot;" newline="True"/>
+            <declare name="data" type="Real" array="False" size=""/>
+            <input variable="data"/>
+            <declare name="result" type="Real" array="False" size=""/>
+            <assign variable="result" expression="2026 - data"/>
+            <declare name="falta" type="Real" array="False" size=""/>
+            <assign variable="falta" expression="18 - result"/>
+            <declare name="livre" type="Integer" array="False" size=""/>
+            <assign variable="livre" expression="result - 18"/>
+            <if expression="result &gt; 18">
+                <then>
+                    <output expression="&quot;j&#225; se passaram &quot;&amp;livre&amp;&quot; do seu maior medo.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;falta &quot;&amp;falta&amp;&quot; anos pra sua vida se tornar um inferno kkkk&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

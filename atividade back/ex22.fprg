@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex22"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-17 08:31:47 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNzsiMDg6MTU6MTAgIjsyMzM3"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNzsiMDg6MzE6NDcgIjsxOzI0NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="opjogador" type="Integer" array="False" size=""/>
+            <declare name="opcomp" type="Integer" array="False" size=""/>
+            <assign variable="opcomp" expression="random(5) +1"/>
+            <output expression="opcomp" newline="True"/>
+            <output expression="&quot;qual numero o computador escolheu?&quot;" newline="True"/>
+            <input variable="opjogador"/>
+            <if expression="(opjogador == opcomp)">
+                <then>
+                    <output expression="&quot;parabens vc acertou&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;vc perdeu&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

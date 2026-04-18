@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex9"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-15 07:30:50 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNTsiMDc6MDU6MzggIjsyMzQz"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0xNTsiMDc6MzA6NTAgIjsxOzI0NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="precooriginal" type="Real" array="False" size=""/>
+            <declare name="desconto" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o pre&#231;o do produto&quot;" newline="True"/>
+            <input variable="precooriginal"/>
+            <assign variable="desconto" expression="precooriginal - ( precooriginal/100) * 5"/>
+            <output expression="&quot;seu produto como desconto de &#233; &quot;&amp;desconto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
