@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex28"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-22 07:30:43 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0yMjsiMDc6MTE6MzggIjsyMzM4"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0yMjsiMDc6MzA6NDMgIjsxOzI0NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um numero&quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="num" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

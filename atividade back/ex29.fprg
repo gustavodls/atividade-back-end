@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex29"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-22 07:39:13 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0yMjsiMDc6MzA6NTAgIjsyMzMz"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0yMjsiMDc6Mzk6MTMgIjsxOzI0NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <declare name="finalvalor" type="Integer" array="False" size=""/>
+            <declare name="encremento" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero&quot;" newline="True"/>
+            <input variable="valor"/>
+            <output expression="&quot;digite um encremento&quot;" newline="True"/>
+            <input variable="encremento"/>
+            <output expression="&quot;digite o valor final&quot;" newline="True"/>
+            <input variable="finalvalor"/>
+            <for variable="i" start="valor" end="finalvalor" direction="inc" step="encremento">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

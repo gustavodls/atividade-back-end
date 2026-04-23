@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex31"/>
+        <attribute name="authors" value="1105339"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-22 09:40:09 "/>
+        <attribute name="created" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0yMjsiMDk6MTA6MTkgIjsyMzM4"/>
+        <attribute name="edited" value="MTEwNTMzOTtOT1RQVUQxOTQxNDY7MjAyNi0wNC0yMjsiMDk6NDA6MDkgIjsxOzI0NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numcomp" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <assign variable="numcomp" expression="random(10)"/>
+            <for variable="i" start="1" end="4" direction="inc" step="1">
+                <output expression="&quot;digite um numero&quot;" newline="True"/>
+                <input variable="num"/>
+                <if expression="num == numcomp">
+                    <then>
+                        <assign variable="i" expression="4"/>
+                    </then>
+                    <else>
+                        <if expression="num &gt; numcomp">
+                            <then>
+                                <output expression="&quot;vc escolheu um numero maior que o computador&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;vc escolheu um numero maior que o computador&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <if expression="num == numcomp">
+                <then>
+                    <output expression="&quot;vc acertou&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
